@@ -5,28 +5,159 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="982cd1df-6a6d-4f58-9e70-a93a72821764" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/about.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/about.jfif" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/about.jfif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/flexslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/flexslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/flexslider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/icomoon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/icomoon.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/icomoon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/linericon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/linericon.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/linericon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/style-jack.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/style-jack.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/style-jack.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/themify-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css2/themify-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/themify-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/about.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-viewlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/about.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/linericon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style-jack.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/themify-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/about.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/linericon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/style-jack.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/themify-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carpenter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/common-banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/emp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/emp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/expense.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/logo21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/news1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/nklogo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/theme.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +171,7 @@
         <entry file="file://$PROJECT_DIR$/nikhsite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="478">
-              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
             </state>
           </provider>
         </entry>
@@ -61,7 +192,7 @@
         <entry file="file://$PROJECT_DIR$/nikhsite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -148,25 +279,6 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nikhsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nikhsite" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nikhsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nikhsite" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nikhsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nikhsite" type="462c0819:PsiDirectoryNode" />
-              <item name="nikhsite" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -238,7 +350,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
@@ -423,7 +534,7 @@
     <entry file="file://$PROJECT_DIR$/nikhsite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -433,7 +544,7 @@
     <entry file="file://$PROJECT_DIR$/nikhsite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
         </state>
       </provider>
     </entry>
