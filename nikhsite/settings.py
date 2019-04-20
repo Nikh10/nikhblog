@@ -65,7 +65,7 @@ TEMPLATES = [
         },
     },
 ]
-
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 WSGI_APPLICATION = 'nikhsite.wsgi.application'
 
 # Database
