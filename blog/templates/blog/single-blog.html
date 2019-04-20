@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="{% static 'images/nklogo1.png' %}" type="image/png">
+    <title>Nikh Portfolio - Blog </title>
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css2/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css2/style.css' %}">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css2/style-jack.css' %}">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <style>
+        body{
+            font-family: 'poppins', sans-serif;
+        }
+        .banner_area .banner_inner {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            min-height: 450px;
+            background: url({% static 'images/common-banner.png' %}) no-repeat right bottom;
+            background-size: cover;
+            z-index: 1;
+        }
+       .bg{
+         font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 0px;
+        }
+       .letter-space{
+        letter-spacing:2px;
+       }
+    .img-fluid{
+        max-width: 100%;
+        height: auto;
+        border-radius:50%;
+
+    }
+    .text-color{
+        color:white;
+
+    }
+    .text-color:hover {
+        color:purple;
+    }
+    .padding{
+        padding:2em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+<header class="header_area header_inner_page">
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <span style="position:relative; left:16%;">
+                <a class="navbar-brand logo_h" href=""><img src="{% static 'images/nklogo1.png' %}"
+                                                            alt=""></a>
+                <a class="navbar-brand logo_inner_page" href=""><img src="{% static 'images/nklogo1.png' %}" width="20%"
+                                                                     alt=""></a>
+            </span>
+
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav menu_nav">
+                        <li class="nav-item"><a class="nav-link" href="/blog/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Pages</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="/blog/">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/blog/contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-6">
+                    <div class="banner_content">
+                        <h5 class="bg">HEY THERE !</h5>
+                        <h2>I AM NIKH </h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 pull right">
+                    <div class="feature-img ">
+                        <img class="img-fluid" src="{% static 'images/about.jfif' %}" alt="Not Found" width="50%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="colorlib-about" data-section="about" style="padding-bottom:2em;">
+    <div class="colorlib-narrow-content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row row-bottom-padded-sm ">
+                    <div class="col-md-12">
+                        <div class="about-desc">
+                            <span class="heading-meta">Who Am I?</span>
+                            <h2 class="colorlib-heading">Brief about me</h2>
+                            <p><strong>Hi I'm Nikhilkumar Hiragond</strong> About my educational background, I completed
+                                my Bachelor of Engineering degree in 2018. Currently working as Associative
+                                software developer at 3K Softech India Pvt ltd Banglore. I am a
+                                quick learner and believe in learning from my mistakes for I strongly feel that
+                                this virtue will take me ahead in life and career.</p>
+                            <p>I am a self-starter with strong interpersonal skills. I work efficiently both as an
+                                individual contributor as well as along with a team.I seek new challenges and try to
+                                think out-of-the-box while looking for creative solutions to a given problem.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="row">-->
+                <!--<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">-->
+                <!--<div class="hire">-->
+                <!--<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>-->
+                <!--<a href="#" class="btn-hire">Hire me</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</section>
+<section class="colorlib-services" data-section="services" style="padding-bottom:2em;">
+    <div class="colorlib-narrow-content">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <span class="heading-meta">What I do?</span>
+                <h2 class="colorlib-heading">Here are some of my expertise</h2>
+            </div>
+        </div>
+        <div class="row row-pt-md">
+            <div class="col-md-4 text-center animated fadeInLeft">
+                <div class="services color-1">
+                    <span class="icon">
+                        <i class="far fa-lightbulb"></i>
+                    </span>
+                    <div class="desc">
+                        <h3>Innovative Ideas</h3>
+                        <p>I believe innovation is implementing something New.The ability to generate useful ideas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center ">
+                <div class="services color-5">
+                    <span class="icon">
+                        <i class="fab fa-python"></i>
+                    </span>
+                    <div class="desc">
+                        <h3>Python</h3>
+                        <p>Python is for developing web applications, complex
+                            scientific and numeric applications</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+                <div class="services color-3">
+								<span class="icon">
+									<i class="fas fa-mobile-alt"></i>
+								</span>
+                    <div class="desc">
+                        <h3>Application</h3>
+                        <p>Building an software for a specific purpose.It helps end user to perform single or multiple
+                            tasks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+                <div class="services color-4">
+								<span class="icon">
+									<i class="fas fa-database"></i>
+								</span>
+                    <div class="desc">
+                        <h3>Database</h3>
+                        <p>Collection of information that is organized so that it can be easily
+                            accessed, managed and updated.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+                <div class="services color-2">
+								<span class="icon">
+                                    <i class="fas fa-layer-group"></i>
+								</span>
+                    <div class="desc">
+                        <h3>Software</h3>
+                        <p>software is a collection of instructions that enable the user to interact with a
+                            computer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+                <div class="services color-6">
+								<span class="icon">
+									<i class="fas fa-chart-line"></i>
+								</span>
+                    <div class="desc">
+                        <h3>Data</h3>
+                        <p> Information collected using specific methods for a specific purpose of studying or
+                            analyzing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="col-md-6 col-md-offset-3 col-md-pull-3 " style="padding-left:2.5em;">
+    <span class="heading-meta">Education</span>
+    <h2 class="colorlib-heading animate-box">About my Education</h2>
+</div>
+<div class="accordion" id="accordionExample" style="padding-left:2.5em;padding-bottom:2em;">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                    Bachelor Degree of Computer Science
+                </button>
+            </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul class="text-success">
+                    <li><b>Degree/Course : </b>Bachelor of Engineering</li>
+                    <li><b>Domain : </b>Computer Science and Engineering</li>
+                    <li><b>Collage : </b>Hirasugar Institute of Technology Nidasoshi</li>
+                    <li><b>Year : </b>2014 - 2018</li>
+                    <li><b>Secured : </b> 66.57 %</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                    High School Secondary Education
+                </button>
+            </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul class="text-success">
+                    <li><b>Degree/Course : </b>Secondary Education</li>
+                    <li><b>Domain : </b>Science</li>
+                    <li><b>Collage : </b>Sri Ramrao Vidya Mandir Highschool & Junior College, Jath Dist-Sangli,
+                        Maharashtra
+                    </li>
+                    <li><b>Year : </b>2012 - 2014</li>
+                    <li><b>Secured : </b> 60.77 %</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="false" aria-controls="collapseThree">
+                    High School Primary Education
+                </button>
+            </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul class="text-success">
+                    <li><b>Degree/Course : </b>Primary Education</li>
+                    <li><b>Collage : </b>Sri Mahadev Vidyalaya Ravalgundwadi, Tq-Jath Dist-Sangli,
+                        Maharashtra
+                    </li>
+                    <li><b>Year : </b>2012</li>
+                    <li><b>Secured : </b> 79.30 %</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="colorlib-experience" data-section="experience" style="padding-bottom:2em;">
+    <div class="colorlib-narrow-content">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 "
+                 data-animate-effect="fadeInLeft">
+                <span class="heading-meta">Experience</span>
+                <h2 class="colorlib-heading ">Work Experience</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="timeline-centered">
+                    <article class="timeline-entry ">
+                        <div class="timeline-entry-inner">
+
+                            <div class="timeline-icon color-1">
+                                <i class="icon-pen2"></i>
+                            </div>
+
+                            <div class="timeline-label">
+                                <h2><a href="#">Python Developer</a> <span>2018-2019</span></h2>
+                                <p>Currently working as a Python developer at 3K Softech India Pvt Ltd, Banglore.
+                                    I am able to build server-side web application logic's, developing back-end
+                                    components, developing and using RESTful APIs, connect the application with the
+                                    other (often third-party) web services, and support the front-end developers by
+                                    integrating their work with the Python application.</p>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="timeline-entry ">
+                        <div class="timeline-entry-inner">
+                            <div class="timeline-icon color-2">
+                                <i class="icon-pen2"></i>
+                            </div>
+                            <div class="timeline-label">
+                                <h2><a href="#">Front End Developer </a>
+                                    <span>2018-2019</span></h2>
+                                <p> As a developer building the UI templates using languages as HTML, CSS, JavaScript
+                                    and hands on the frameworks such as Bootstrap and JavaScript libraries such as
+                                    jQuery and Ajax.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-entry begin ">
+                        <div class="timeline-entry-inner">
+                            <div class="timeline-icon color-none">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="colorlib-work" data-section="work" style="padding-bottom:2em;">
+    <div class="colorlib-narrow-content">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 ">
+
+                <span class="heading-meta">Work</span>
+                <h2 class="colorlib-heading">Here are some of my Recent Works</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="project" style="background-image: url({% static 'images/news1.jpg' %});">
+                    <div class="desc ">
+                        <div class="con" style="padding-top:4em;padding-left:3em;">
+                            <h2 cl><a href="https://nk-news.herokuapp.com/nknews_app/index/" class="text-color">NK News
+                                Application</a></h2>
+                            <span> Python, Django, HTML, CSS, JS</span>
+                            <p class="icon padding ">
+                                <span><a href="#"><i class="fas fa-share-alt text-info "></i></a></span>
+                                <span><a href="#"><i class="fas fa-eye text-success"></i>100</a></span>
+                                <span><a href="#"><i class="fas fa-heart text-danger"></i> 49</a></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="project" style="background-image: url({% static 'images/carp.jpg' %});">
+                    <div class="desc">
+                        <div class="con" style="padding-top:4em;padding-left:3em;">
+                            <h2><a href="https://github.com/Nikh10/Carpenter-Application" class="text-color">Carpenter
+                                Application</a></h2>
+                            <span>Python, Django, HTML, CSS, JS</span>
+                            <p class="icon padding">
+                                <span><a href="#"><i class="fas fa-share-alt text-info"></i></a></span>
+                                <span><a href="#"><i class="fas fa-eye text-success"></i>100</a></span>
+                                <span><a href="#"><i class="fas fa-heart text-danger"></i> 49</a></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="project" style="background-image: url({% static 'images/emp1.jpg' %});">
+                    <div class="desc">
+                        <div class="con" style="padding-top:4em;padding-left:3em;">
+                            <h2><a href="https://github.com/Nikh10/Employee_mgnt_Flask" class="text-color">Employee
+                                Management</a></h2>
+                            <span>Python, Flask, HTML, CSS</span>
+                            <p class="icon padding">
+                                <span><a href="#"><i class="fas fa-share-alt text-info"></i></i></a></span>
+                                <span><a href="#"><i class="fas fa-eye text-success"></i> 100</a></span>
+                                <span><a href="#"><i class="fas fa-heart text-danger"></i> 49</a></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="project" style="background-image: url({% static 'images/expense.jpg' %});">
+                    <div class="desc">
+                        <div class="con" style="padding-top:4em;padding-left:3em;">
+                            <h2><a href="https://github.com/Nikh10/expense_calculator" class="text-color">Expense
+                                calculator</a></h2>
+                            <span>Python, Flask, HTML, CSS</span>
+                            <p class="icon padding">
+                                <span><a href="#"><i class="fas fa-share-alt text-info"></i></i></a></span>
+                                <span><a href="#"><i class="fas fa-eye text-success"></i>100</a></span>
+                                <span><a href="#"><i class="fas fa-heart text-danger"></i> 49</a></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-margin">
+    <div class="container">
+        <div class="col-12">
+            <h2 class="contact-title">Get in Touch</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mb-4 mb-lg-0">
+                <form class="form-contact contact_form" action="" method="post" id="contactForm"
+                      novalidate="novalidate">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                                          placeholder="Enter Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control" name="name" id="name" type="text"
+                                       placeholder="Enter your name">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control" name="email" id="email" type="email"
+                                       placeholder="Enter email address">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <input class="form-control" name="subject" id="subject" type="text"
+                                       placeholder="Enter Subject">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mt-lg-3">
+                        <button type="submit" class="primary_btn button-contactForm">Send Message</button>
+                    </div>
+                </form>
+
+
+            </div>
+
+            <div class="col-lg-4">
+                <div class="media contact-info">
+                    <span class="contact-info__icon"><i class="fas fa-home text-success"></i></span>
+                    <div class="media-body">
+                        <h3>BTM 1st Stage </h3>
+                        <p>Banglore, 560029</p>
+                    </div>
+                </div>
+                <div class="media contact-info">
+                    <span class="contact-info__icon"><i class="fas fa-tablet-alt text-info"></i></span>
+                    <div class="media-body">
+                        <h3><a href="tel:454545654">+91 8073508219</a></h3>
+                        <p>Contact me at anytime!</p>
+                    </div>
+                </div>
+                <div class="media contact-info">
+                    <span class="contact-info__icon"><i class="far fa-envelope text-danger"></i></span>
+                    <div class="media-body">
+                        <h3><a href="mailto:support@colorlib.com">hnikh10@hotmail.com</a></h3>
+                        <p>Send me your query anytime!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer_area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="footer_top flex-column">
+                    <div class="footer_logo">
+                        <a href="#">
+                            <img src="{% static 'images/nklogo1.png' %}" width="5%" alt="">
+                        </a>
+                        <div class="d-lg-block d-none">
+                            <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+                                <div class="collapse navbar-collapse offset">
+                                    <ul class="nav navbar-nav menu_nav mx-auto">
+                                        <li class="nav-item"><a class="nav-link text-white" href="">Home</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link text-white" href="">About</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link text-white" href="">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link text-white" href="">BLog</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link text-white" href="">Services </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="footer_social mt-lg-0 mt-4">
+                        <a href="https://www.facebook.com/nikhilkumar.hiragond"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://github.com/Nikh10"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/nikhkumar07"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-skype"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer_bottom justify-content-center">
+            <p class="col-lg-8 col-sm-12 footer-text" style="color:white">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                All rights reserved | This template is made with <i class="fa fa-heart text-danger"
+                                                                    aria-hidden="true"></i> by <a
+                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'js/theme.js' %}"></script>
+<!--<script src="{% static 'js/bootstrap.min.js' %}"></script>-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
